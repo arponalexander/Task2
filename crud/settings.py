@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'phone_field',
     'rest_framework',
     'rest_framework_swagger',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -106,7 +107,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
 }
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
